@@ -47,6 +47,9 @@ header h3{
   min-height: 50vh;
   margin: 0 auto;
   margin-top: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*FORM*/
@@ -54,6 +57,7 @@ form {
   border: 1px solid rgb(204, 204, 204);
   background-color: white;
   padding: 30px 20px;
+  width: 800px;
 }
 
 form h1{
@@ -61,7 +65,7 @@ form h1{
   text-align: center;
   font-size: 30px;
 }
-form h2, form a{
+form h3, form a{
   text-align: center;
   display: block;
 }
@@ -109,6 +113,8 @@ form p{
 
 /*FOOTER*/
 footer {
-  margin-top: 50px;
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
